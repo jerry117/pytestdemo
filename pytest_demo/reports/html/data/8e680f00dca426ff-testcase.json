@@ -1,0 +1,50 @@
+{
+  "uid" : "8e680f00dca426ff",
+  "name" : "test_sysexit.test_mytest",
+  "title" : "Test mytest",
+  "time" : {
+    "start" : 1546844616721,
+    "stop" : 1546844616725,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "58c59570bcf4ff09",
+    "name" : "pytest_demo",
+    "title" : "Pytest demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "pytest_demo"
+  }, {
+    "name" : "thread",
+    "value" : "268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "2017-05-23-1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

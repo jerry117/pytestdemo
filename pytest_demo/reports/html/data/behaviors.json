@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "6a9abc8a30b2d831",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c5dbe4fef14805f5",
+        "name" : "test_sample.test_answer",
+        "title" : "Test answer",
+        "time" : {
+          "start" : 1546844616651,
+          "stop" : 1546844616717,
+          "duration" : 66
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8e680f00dca426ff",
+        "name" : "test_sysexit.test_mytest",
+        "title" : "Test mytest",
+        "time" : {
+          "start" : 1546844616721,
+          "stop" : 1546844616725,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

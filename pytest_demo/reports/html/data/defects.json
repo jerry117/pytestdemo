@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "f542782b73b2aea7",
+      "failure" : {
+        "message" : "AssertionError: assert 4 == 5\n +  where 4 = inc(3)",
+        "stackTrace" : "def test_answer():\n>       assert inc(3) == 5\nE       assert 4 == 5\nE        +  where 4 = inc(3)\n\ntest_sample.py:8: AssertionError"
+      },
+      "testCases" : [ {
+        "uid" : "c5dbe4fef14805f5",
+        "name" : "test_sample.test_answer",
+        "title" : "Test answer",
+        "time" : {
+          "start" : 1546844616651,
+          "stop" : 1546844616717,
+          "duration" : 66
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

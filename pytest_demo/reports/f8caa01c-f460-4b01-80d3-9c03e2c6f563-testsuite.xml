@@ -1,0 +1,40 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1546844616651" stop="1546844616725">
+  <name>pytest_demo</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1546844616651" status="failed" stop="1546844616717">
+      <name>test_sample.test_answer</name>
+      <failure>
+        <message>AssertionError: assert 4 == 5
+ +  where 4 = inc(3)</message>
+        <stack-trace>def test_answer():
+&gt;       assert inc(3) == 5
+E       assert 4 == 5
+E        +  where 4 = inc(3)
+
+test_sample.py:8: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="268-MainThread"/>
+        <label name="host" value="2017-05-23-1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1546844616721" status="passed" stop="1546844616725">
+      <name>test_sysexit.test_mytest</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="268-MainThread"/>
+        <label name="host" value="2017-05-23-1"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

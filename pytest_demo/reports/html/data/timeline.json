@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "2017-05-23-1",
+    "threads" : [ {
+      "title" : "268-MainThread",
+      "testCases" : [ {
+        "uid" : "c5dbe4fef14805f5",
+        "name" : "test_sample.test_answer",
+        "title" : "Test answer",
+        "time" : {
+          "start" : 1546844616651,
+          "stop" : 1546844616717,
+          "duration" : 66
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8e680f00dca426ff",
+        "name" : "test_sysexit.test_mytest",
+        "title" : "Test mytest",
+        "time" : {
+          "start" : 1546844616721,
+          "stop" : 1546844616725,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

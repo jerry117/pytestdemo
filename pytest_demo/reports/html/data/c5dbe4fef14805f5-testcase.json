@@ -1,0 +1,53 @@
+{
+  "uid" : "c5dbe4fef14805f5",
+  "name" : "test_sample.test_answer",
+  "title" : "Test answer",
+  "time" : {
+    "start" : 1546844616651,
+    "stop" : 1546844616717,
+    "duration" : 66
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert 4 == 5\n +  where 4 = inc(3)",
+    "stackTrace" : "def test_answer():\n>       assert inc(3) == 5\nE       assert 4 == 5\nE        +  where 4 = inc(3)\n\ntest_sample.py:8: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "58c59570bcf4ff09",
+    "name" : "pytest_demo",
+    "title" : "Pytest demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "pytest_demo"
+  }, {
+    "name" : "thread",
+    "value" : "268-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "2017-05-23-1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}
