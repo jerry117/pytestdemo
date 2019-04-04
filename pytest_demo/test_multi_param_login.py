@@ -12,13 +12,13 @@ test_user_data2 = [
     {'q':'pdd', 'count': 3, 'page':1},
 ]
 
-@pytest.fixture(scope='module')
+@pytest.fixture(autouse=True)
 def login_r(request):
     user = request.param['user']
     pwd = request.param['password']
     print('用户登录名{}用户登录密码{}'.format(user, pwd))
 
-@pytest.fixture(scope='module')
+@pytest.fixture(autouse=True)
 def query_param(request):
     q = request.param['q']
     count = request.param['count']
